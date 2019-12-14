@@ -1,0 +1,19 @@
+.App {
+  text-align: left;
+}
+
+.MuiTableHead-root{
+  background-color:#168c08;
+}
+.App-link {
+  color: #09d3ac;
+}
+.actionLinks{
+  display:flex;
+  flex-direction: row;  
+}
+.tableToolbarIconDiv{
+	display:flex;
+	flex-direction:row;
+	padding-right:30px;
+}

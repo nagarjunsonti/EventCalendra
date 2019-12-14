@@ -1,0 +1,63 @@
+.sidebarContainer{
+	padding:5px;
+}
+.sidebarContainer .MuiTableCell-sizeSmall.MuiTableCell-paddingCheckbox{
+	padding:8px;
+}
+.sideBarTitleDiv{
+	text-transform: capitalize;
+	width:60%;
+}
+.sidebarHeaderDiv .MuiToolbar-root{
+	display: flex;
+    flex-direction: row;
+}
+
+.sidebarHeaderDiv .closeButtonDiv{
+	width: 40%;
+    text-align: right;
+}
+.sidebarHeaderDiv .MuiIconButton-label{
+	display: unset;
+}
+.eventModelDescriptionContainer{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height:2;
+}
+
+.descriptionHeader, .descriptionTimeSlopt {
+	display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.descriptionDiv, .usersListDiv ul{
+	display:block;
+	width: 100%;
+	margin-top:1px;
+}
+.usersListDiv ul{
+	display:inline-block;
+}
+.descriptionDiv{
+	padding-left:5px;
+}
+.usersListDiv ul li{	
+	float:left;	
+	padding-right: 31px;
+}
+.childBlockDiv{
+	width:50%;
+	padding:5px;
+}
+.labelSpan{
+	font-weight: 600;
+	color: #827d7d;
+}
+.usersListDiv{
+	margin:10px 0 10px 5px;
+}
+.usersListDiv .labelSpan{
+	font-size:15px;
+}
