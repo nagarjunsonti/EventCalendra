@@ -273,10 +273,7 @@ export default function EnhancedTable(props) {
         {columnData}
       </TableCell>
     })
-  }
-  // const handleEventDisplayToggle = (event) => {
-
-  // }
+  }  
   const getIconComponent = (row, action) => {
     let disabledButton = (row.isShowOnCalander && row.isShowOnCalander) ? true : false;
     switch (action.icon) {

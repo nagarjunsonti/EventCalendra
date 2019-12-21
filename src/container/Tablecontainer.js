@@ -22,7 +22,7 @@ function Tablecontainer(props) {
 
 	}, [usersList, eventsList]);
 	const handleTableSearch = (value, tableTitle) => {
-		let searcheddata = value;
+		let searcheddata = value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
 		let user_ids_event = [];
 		let user_ids_user = [];
 		let filterData = [];

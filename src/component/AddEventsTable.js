@@ -23,7 +23,7 @@ function AddEventsTable(props) {
     props.updateEventsSelectedRows({ userData: addUserData, eventsId: selecteddataList });
   }
   const handleTableSearch = (value) => {
-    let searcheddata = value;
+    let searcheddata = value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     let regex = new RegExp(searcheddata, 'gi');
     let filterData = eventsList.filter((value) => {
       return value.organizer.match(regex);
